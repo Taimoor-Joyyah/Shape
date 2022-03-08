@@ -3,7 +3,8 @@ public class Cuboid extends Shape3D{
     private double length;
     private double width;
 
-    public Cuboid(String name, double xCoordinate, double yCoordinate, double zCoordinate, double height, double length, double width) {
+    public Cuboid(String name, double xCoordinate, double yCoordinate,
+                  double zCoordinate, double height, double length, double width) {
         super(name, xCoordinate, yCoordinate, zCoordinate);
         this.height = height;
         this.length = length;
